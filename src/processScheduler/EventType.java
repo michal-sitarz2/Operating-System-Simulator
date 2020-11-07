@@ -1,0 +1,5 @@
+package processScheduler;
+
+public enum EventType {
+	ARRIVED, SCHEDULED, TERMINATED, PREEMPTED, IO_BLOCKED, ALLOCATED, DEALLOCATED;
+}
